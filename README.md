@@ -16,6 +16,22 @@ Open the app:
 
 By default the server binds to `0.0.0.0` so you can access the app on other devices such as a phone or tablet.
 
+## Python??
+
+I would have preferred a Node based server written in JS, but the iRacing SDK package for Node requires compilation of some C code with `node-gyp`. 
+
+I ran into some really cryptic errors and moved onto the Python package (which just works, by comparsion).
+
+If anyone knows how to debug or fix
+```
+npm ERR!   File "binding.gyp", line 1
+npm ERR!     \ufeff{
+npm ERR!     ^
+npm ERR! SyntaxError: invalid non-printable character U+FEFF
+```
+
+please let me know! For now Python is good enough.
+
 ## Hacking on the Client
 
 It's a pretty standard `create-react-app` app.
