@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5971ab01.css",
+    "main.js": "/static/js/main.54ece09c.js",
+    "static/media/steering_wheel.png": "/static/media/steering_wheel.0e56188faf960aecfb45.png",
+    "index.html": "/index.html",
+    "main.5971ab01.css.map": "/static/css/main.5971ab01.css.map",
+    "main.54ece09c.js.map": "/static/js/main.54ece09c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5971ab01.css",
+    "static/js/main.54ece09c.js"
+  ]
+}
